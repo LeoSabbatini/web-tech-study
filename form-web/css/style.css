@@ -61,7 +61,7 @@ form{
 }
 
 
-.form-group input[type = "text"]{
+.form-group input{
     border: 1px solid darkolivegreen;
     border-radius: 5px;
     width: 95%;
