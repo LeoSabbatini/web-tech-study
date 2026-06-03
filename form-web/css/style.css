@@ -5,17 +5,74 @@ body{
 .container{
     width: 100%;
     max-width: 1000px;
-    border: 1px solid;
     margin: 0 auto;
 }
 
 header{
     height: 100px;
-    background-color: burlywood;
+    background-color: darkkhaki;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 header h1{
     color: white;
     font-size: 35px;
     padding: 25px;
+}
+
+.content{
+    max-width: 400px;
+    border: 1px solid darkolivegreen;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.headerCad{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkkhaki;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.headerCad h1{
+    color: #fff;
+    font-size: 24px;
+}
+
+form{
+    background-color: #fff;
+}
+
+.form-group, .form-button{
+    margin: 10px;
+}
+
+.form-group label{
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    padding: 2px;
+}
+
+
+.form-group input[type = "text"]{
+    border: 1px solid darkolivegreen;
+    border-radius: 5px;
+    width: 95%;
+    height: 25px;
+        padding-left: 5px;
+}
+
+.form-button button{
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: darkolivegreen;
+    background-color: darkkhaki;
+    color:#fff;
 }
