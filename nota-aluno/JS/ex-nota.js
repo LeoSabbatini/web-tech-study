@@ -1,20 +1,21 @@
 const inputNota = document.getElementById("nota")
 const resultado = document.getElementById("resultado")
+const message = document.getElementById("message")
  
 function resultadoNotaClick(event){
     event.preventDefault();
     const inputNotaValue = inputNota.value
-
-    if (inputNota.value == ""){
-        alert("É preciso inserir um valor.")
+ 
+    if(inputNotaValue == ""){
+        message.style.display = "block";
         return false;
     }
-
-
-    if(inputNota.value >= 6){
-        console.log("O aluno foi aprovado")
+   
+    if(inputNotaValue >= 6){
+        resultado.innerHTML = "Aprovado"
     }else{
-        console.log("O aluno foi reprovado")
+        resultado.innerHTML = "Reprovado"
     }
-    
-}
+ 
+    inputNota.value = "";
+}      
