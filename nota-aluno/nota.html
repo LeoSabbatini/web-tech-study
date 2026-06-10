@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/nota.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Nota do Aluno</title>
 </head>
 <body>
@@ -11,14 +11,17 @@
         <form action="">
             <article class="form-control">
                 <label for="nota">Digite a nota do aluno:</label>
-                <input type="number" min="0" id="nota">
+                <input type="number" min="0" max="10" id="nota">
             </article>
- 
-            <button id="verifica-nota">Verificar nota</button>
+
+            <button id="verifica-nota" onclick="resultadoNotaClick(event)">Verificar nota</button>
+
+            <div class="resultado"></div>
+            
         </form>
     </main>
  
-    <script src=""></script>
+    <script src="js/ex-nota.js"></script>
 </body>
 </html>
  
