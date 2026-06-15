@@ -1,17 +1,20 @@
-//alert("pop-up")const button = document.querySelector("button")
 const button = document.querySelector("button")
 const popup = document.querySelector(".popup-wrapper")
- 
-button.addEventListener("click", function(event) {
+const popupLink = document.querySelector(".popup-link")
+const corBackground = document.querySelector("body")
+button.addEventListener("click", (event) =>{  
     popup.classList.add("d-block")
 });
  
-popup.addEventListener("click", function(event){
-    const classOfClickElement = event.target.classList[0] //Indentifica a classe aonde clica
-    const classNameListArray = ["popup-close", "popup-wrapper"]
+popup.addEventListener("click", (event) =>{
+    const clickedElement = event.target
  
-    if(classNameListArray.includes(classOfClickElement)){
+    if (clickedElement.classList.contains("popup-close") || clickedElement.classList.contains("popup-wrapper")) {
         popup.classList.remove("d-block")
     }
+});
+
+popupLink.addEventListener("click", (event) =>{
+    corBackground.classList.add("altColor")
 })
  

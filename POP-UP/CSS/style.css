@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+.altColor{
+    background-color: slategray;
+}
  
 button {
   display: block;
