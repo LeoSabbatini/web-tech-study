@@ -23,4 +23,4 @@ const lista = document.querySelector(".lista");
         email.value=""
         telefone.value=""
         //incluir itens no HTML
-    })
+    }) 
