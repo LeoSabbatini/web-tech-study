@@ -1,7 +1,7 @@
-const Header = (props) => {
+const Footer = (props) => {
 
-    const headerStyle = {
-        background: '#BEBEBE',
+    const footerStyle = {
+        background: '#262529',
         padding: '20px',
         textAlign: 'center',    
         borderBottom: '2px solid #696969'
@@ -9,15 +9,15 @@ const Header = (props) => {
     const titleStyle = {
         margin: 0,
         fontSize: '24px',
-        color:'#191970'
+        color:'#fdfdfd'
     }
 
     return(
-        <header style={headerStyle}>
+        <footer style={footerStyle}>
             <h1 style={titleStyle}>{props.title}</h1>
-        </header>
+        </footer>
     )
 
 }
 
-export default Header;
+export default Footer;

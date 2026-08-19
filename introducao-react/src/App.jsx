@@ -1,19 +1,29 @@
 import Header from "./Components/Header"
 import Card from "./Components/card"
+import Banner from "./components/Banner"
+import Footer from "./components/Footer"
 
 function App() {
 
 
   return (
     <>
-    <Header/>
+    <Header title="Meu site"/>
+    <Header title="lorem ipsum doret"/>
+    <Header title="introducao react"/>
+    
+    <Banner>
+      <h1>Bem-vidno ao meu site</h1>
+      <p>Aqui voce encontra as melhores ofertas</p>
+    </Banner>
+
     <Card/>
 
-    
-    <footer>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </footer>
+
+
+    <Footer title="Footer"/>
     </>
+
   )
 }
 
