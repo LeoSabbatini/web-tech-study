@@ -2,6 +2,7 @@ import Header from "./Components/Header"
 import Card from "./Components/card"
 import Banner from "./components/Banner"
 import Footer from "./components/Footer"
+import ImgCard from "./components/ImgCard"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <p>Aqui voce encontra as melhores ofertas</p>
     </Banner>
 
+    <ImgCard/>
     <Card/>
 
 
@@ -27,4 +29,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
