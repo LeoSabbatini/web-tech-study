@@ -1,6 +1,6 @@
 import "./Anuncio.css"
 
-import imgTrompa from "../assets/trompa.webp"
+import imgTrompa from "../../assets/trompa.webp"
 
 const Anuncio = (props) =>{
 
