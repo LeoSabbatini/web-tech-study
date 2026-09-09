@@ -1,4 +1,3 @@
-import React from 'react'
 import './box.css'
 export default function Index(props) {
     console.log(props)
@@ -6,9 +5,7 @@ export default function Index(props) {
     <section className='container-box'>
       <img src={props.image} alt={props.title} />
       <h1 className='title-box'>{props.title}</h1>
-      <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        {props.description}
-      </p>
+      <p className='description'>{props.description}</p>
 
     </section>
   )
