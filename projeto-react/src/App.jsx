@@ -1,10 +1,15 @@
-import Header from "./components/Header"
+import Header from "./components/Header/"
 import "./global.css"
+import Footer from "./Components/Footer/Index"
+import Router from "./Router"
 function App() {
   return (
     <>
-      <Header />
-      <h1>Hello, React!</h1>
+      <div className="App">
+        <Header />
+        <Router />
+        <Footer />
+      </div>
     </>
   )
 }
