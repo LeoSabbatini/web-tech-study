@@ -2,11 +2,11 @@
   max-width: 280px;
   text-align: center;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #1b181d;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 40px;
-  background-color: rgb(255, 255, 255);
+  background-color: #2a242e;
 }
 
 .image {
@@ -18,12 +18,12 @@
 .title-box {
   font-size: 18px;
   margin: 10px 0;
-  color: #333;
+  color: #ffffff;
 }
 
 .description {
   font-size: 16px;
-  color: #666;
+  color: #cccccc;
   margin-bottom: 20px;
 }
 
