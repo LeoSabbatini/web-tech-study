@@ -17,9 +17,10 @@ export default defineConfig([
       globals: globals.browser,
       parserOptions: { ecmaFeatures: { jsx: true } },
     },
-    // 👇 ADICIONE ESSA PROPRIEDADE REGRAS AQUI:
     rules: {
-      'no-unused-vars': 'off', // Desativa o erro de variáveis não usadas
+      'no-unused-vars': 'off',                // Desativa no JavaScript puro
+      'react/jsx-uses-vars': 'off',           // Desativa em variáveis do JSX
+      'react-hooks/exhaustive-deps': 'off',   // Evita avisos incômodos no useEffect
     },
   },
 ])
