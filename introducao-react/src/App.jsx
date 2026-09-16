@@ -4,16 +4,19 @@ import Banner from "./components/Banner"
 import Footer from "./components/Footer"
 import ImgCard from "./components/ImgCard"
 import Anuncio from "./components/Anuncio"
-
+import Count from "./components/Count"
+import Box from "./components/Box"
+import BoxEx from "./components/boxExercicio"
 function App() {
 
 
   return (
     <>
     <Header title="Meu site"/>
-    <Header title="lorem ipsum doret"/>
-    <Header title="introducao react"/>
-    
+    <BoxEx/>
+    <Count/>
+    <Box/>
+
     <Banner>
       <h1>Bem-vidno ao meu site</h1>
       <p>Aqui voce encontra as melhores ofertas</p>
