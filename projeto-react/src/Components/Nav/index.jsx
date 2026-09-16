@@ -5,8 +5,9 @@ export default function index() {
     <nav >
         <ul className="menu">
             <li><Link to="/">Início</Link></li>
-            <li><Link to="/sobre">Sobre</Link></li>
-            <li><Link to="/faq">FAQ</Link></li>
+            <li><Link to="/Sobre">Sobre</Link></li>
+            <li><Link to="/FAQ">FAQ</Link></li>
+            <li><Link to="/Usuarios">Usuarios</Link></li>
         </ul>
     </nav>
   )
