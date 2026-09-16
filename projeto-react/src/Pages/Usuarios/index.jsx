@@ -4,9 +4,17 @@ import { useEffect, useState } from "react"
 export default function index() {
     const [usuarios, setUsuarios] = useState([])
 
-    useEffect(()=> {
-        fetch("http://localhost:3000/usuarios").then((response) => response.json).then((data)=> setUsuarios(data)).catch((error) => console.log(error))
-    }, [])
+    // useEffect(()=> {
+    //     fetch("http://localhost:3000/usuarios")
+    //     .then((response) => response.json).then((data)=> setUsuarios(data)).catch((error) => console.log(error))
+    // }, [])
+
+    useEffect(() => {
+         fetch("http://localhost:3000/usuarios")
+         .then((response) => response.json())
+         .then((data)=> setUsuarios(data))
+         .catch((error) => console.log(error))
+    })
 
   return (
     <section className="container-usuarios">
