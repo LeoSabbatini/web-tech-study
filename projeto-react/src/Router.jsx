@@ -4,7 +4,7 @@ import Sobre from './Pages/Sobre'
 import NotFound from './Pages/NotFound'
 import Nav from './Components/Nav'
 import FAQ from './Pages/FAQ'
-import Usuario from './Pages/Usuarios/Index'
+import Usuario from './Pages/Usuarios/'
 export default function Router() {
   return (
     <BrowserRouter>

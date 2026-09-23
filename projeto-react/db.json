@@ -1,9 +1,22 @@
 {
   "usuarios": [
-     { "nome": "João Silva", "telefone": "11999990001", "email":"joao@gmail.com" },
-     { "nome": "Caio", "telefone": "44444444" , "email":"caio@gmail.com"  },
-     { "nome": "Gustavo", "telefone": "33333333" , "email":"gustavo@gmail.com"  }
+    {
+      "nome": "João Silva",
+      "telefone": "11999990001",
+      "email": "joao@gmail.com"
+    },
+    {
+      "nome": "Caio",
+      "telefone": "44444444",
+      "email": "caio@gmail.com"
+    },
+    {
+      "nome": "Gustavo",
+      "telefone": "33333333",
+      "email": "gustavo@gmail.com"
+    }
   ],
+
   "faq": [
     {
       "id": "1",
@@ -30,6 +43,43 @@
       "pergunta": "5. Posso usar os textos ou imagens do blog no meu trabalho escolar ou site?",
       "resposta": "Você pode utilizar nossas informações para fins educativos (como trabalhos escolares), desde que cite o blog como fonte. No entanto, a cópia integral de textos para outros sites ou o uso comercial de nossas imagens sem autorização prévia é proibido. Para parcerias de conteúdo, por favor, entre em contato conosco."
     }
+  ],
+
+  "sobre": [
+    {
+      "id": "1",
+      "titulo": "Sobre",
+      "texto": "Se você é do tipo que se encanta com o silêncio da noite, busca conhecimento profundo ou simplesmente perde horas admirando a precisão e a beleza das aves de rapina, este é o seu lugar. O nosso blog nasceu da paixão genuína pelas corujas, criaturas enigmáticas que habitam o imaginário humano desde a Grécia Antiga como símbolos de sabedoria e conhecimento."
+    },
+    {
+      "id": "2",
+      "titulo": "Nossa Missão",
+      "texto": "Nosso objetivo é desmistificar e compartilhar o fascinante universo dos estrigiformes (a ordem científica das corujas). Queremos ir muito além dos mitos populares, trazendo conteúdo de qualidade sobre a biologia, os hábitos e as curiosidades surpreendentes dessas aves essenciais para o equilíbrio da nossa biodiversidade."
+    },
+    {
+      "id": "3",
+      "titulo": "Curiosidades Surpreendentes",
+      "texto": "Detalhes anatômicos impressionantes, como os 'olhos falsos' na nuca do caburé ou o sofisticado sistema de audição assimétrica que as permite caçar na mais completa escuridão."
+    },
+    {
+      "id": "4",
+      "titulo": "Guias de Espécies",
+      "texto": "Perfis detalhados que cobrem desde as conhecidas corujas-buraqueiras e de torres, até as raras e majestosas habitantes das neves."
+    },
+    {
+      "id": "5",
+      "titulo": "Conservação e Consciência",
+      "texto": "Discussões e informações sobre como proteger os habitats naturais destas espécies de rapina e apoiar institutos de pesquisa da vida selvagem."
+    },
+    {
+      "id": "6",
+      "titulo": "Quem escreve?",
+      "texto": "Atrás das telas está um apaixonado por biologia e fotografia de natureza que decidiu abrir os olhos para o mundo noturno. Assim como as corujas conseguem girar a cabeça em ângulos impressionantes para ampliar sua visão, este blog é o meu jeito de mudar de perspectiva e enxergar a beleza que muitos deixam passar batido no escuro."
+    },
+    {
+      "id": "7",
+      "titulo": "Uma jornada de conhecimento",
+      "texto": "Prepare um café (ou um chá para o seu hábito crepuscular), acomode-se no seu galho favorito e voe com a gente nessa jornada de conhecimento!"
+    }
   ]
 }
- 
