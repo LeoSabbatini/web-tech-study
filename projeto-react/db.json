@@ -3,20 +3,28 @@
     {
       "nome": "João Silva",
       "telefone": "11999990001",
-      "email": "joao@gmail.com"
+      "email": "joao@gmail.com",
+      "id": "VTK6pCurl-k"
     },
     {
       "nome": "Caio",
       "telefone": "44444444",
-      "email": "caio@gmail.com"
+      "email": "caio@gmail.com",
+      "id": "uYzvRlhxQiE"
     },
     {
       "nome": "Gustavo",
       "telefone": "33333333",
-      "email": "gustavo@gmail.com"
+      "email": "gustavo@gmail.com",
+      "id": "AWAg2t7lyNk"
+    },
+    {
+      "nome": "dadwadwadwa",
+      "telefone": "adwdwadwad",
+      "email": "dawdawdwa@com.com",
+      "id": "u_-DN4RcCn4"
     }
   ],
-
   "faq": [
     {
       "id": "1",
@@ -44,7 +52,6 @@
       "resposta": "Você pode utilizar nossas informações para fins educativos (como trabalhos escolares), desde que cite o blog como fonte. No entanto, a cópia integral de textos para outros sites ou o uso comercial de nossas imagens sem autorização prévia é proibido. Para parcerias de conteúdo, por favor, entre em contato conosco."
     }
   ],
-
   "sobre": [
     {
       "id": "1",
@@ -81,5 +88,6 @@
       "titulo": "Uma jornada de conhecimento",
       "texto": "Prepare um café (ou um chá para o seu hábito crepuscular), acomode-se no seu galho favorito e voe com a gente nessa jornada de conhecimento!"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
