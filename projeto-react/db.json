@@ -1,18 +1,6 @@
 {
   "usuarios": [
     {
-      "nome": "João Silva",
-      "telefone": "11999990001",
-      "email": "joao@gmail.com",
-      "id": "VTK6pCurl-k"
-    },
-    {
-      "nome": "Caio",
-      "telefone": "44444444",
-      "email": "caio@gmail.com",
-      "id": "uYzvRlhxQiE"
-    },
-    {
       "nome": "Gustavo",
       "telefone": "33333333",
       "email": "gustavo@gmail.com",
@@ -23,6 +11,12 @@
       "telefone": "adwdwadwad",
       "email": "dawdawdwa@com.com",
       "id": "u_-DN4RcCn4"
+    },
+    {
+      "nome": "222222222",
+      "telefone": "awd213321",
+      "email": "12333@dddd.c",
+      "id": "WNREhVJyaHw"
     }
   ],
   "faq": [
@@ -87,6 +81,13 @@
       "id": "7",
       "titulo": "Uma jornada de conhecimento",
       "texto": "Prepare um café (ou um chá para o seu hábito crepuscular), acomode-se no seu galho favorito e voe com a gente nessa jornada de conhecimento!"
+    }
+  ],
+  "cadastroNews": [
+    {
+      "nome": "Leo",
+      "email": "leo@gmail.com",
+      "id": "12345679"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
