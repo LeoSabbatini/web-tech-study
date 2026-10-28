@@ -9,6 +9,7 @@ export default function index() {
             <li><Link to="/FAQ">FAQ</Link></li>
             <li><Link to="/Usuarios">Usuarios</Link></li>
             <li><Link to="/cadastro">Cadastro</Link></li>
+            <li><Link to="/cadastroNews">cadastro News</Link></li>
         </ul>
     </nav>
   )
